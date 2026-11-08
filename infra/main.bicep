@@ -23,9 +23,6 @@ param storageSku string = 'Standard_LRS'
 @description('Blob containers to create in the storage account.')
 param containerNames array = []
 
-@description('Public IPs / CIDRs allowed through the storage firewall. Empty = deny all public access except trusted Azure services.')
-param allowedIpRanges array = []
-
 @description('Tags applied to every resource. Merged with deployment-generated tags.')
 param tags object = {}
 
