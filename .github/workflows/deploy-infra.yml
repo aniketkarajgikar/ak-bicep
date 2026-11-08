@@ -48,7 +48,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        environment: [dev, test, prod]
+        environment: [dev]
     environment: ${{ matrix.environment }}-readonly
     steps:
       - uses: actions/checkout@v4
