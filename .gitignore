@@ -1,0 +1,7 @@
+*.json.bak
+outputs.json
+# Compiled ARM output
+*.compiled.json
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
